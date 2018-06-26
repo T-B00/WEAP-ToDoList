@@ -6,7 +6,7 @@ var express = require('express'),
 	passport  = require('passport'),
 	port = process.env.PORT || 8080;
 
-mongoose.connect('mongodb://vitodo:tCWaHjJPRrWcAnPojMK18LOe2yf06ybV2sf1HVQ1pchMwwmmGlLAFGcBzqsvfVcLoXJsFwPFox38SSYc2pIjlg==@vitodo.documents.azure.com:10255/?ssl=true&replicaSet=globaldb');
+mongoose.connect('connectURL');
 
 var app = express();
 
